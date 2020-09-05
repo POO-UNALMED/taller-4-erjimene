@@ -14,6 +14,7 @@ public class Taller2 {
         Persona profesor2 = new Persona(99212, "Andrea");
         Asignatura asignatura2 = new Asignatura(882);
         asignatura2.setCodigoInterno(98);
+        asignatura2.setCodigoExterno(882);
         asignatura2.cambiarDatos("Estadistica");
         Grupo grupo2 = new Grupo(2, profesor2, asignatura2, 10122, "W V 8-10");
         grupo2.cambiarEstudiante(0, estudiantes1[0]);
